@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='Kobayashi Yusei',
     maintainer_email='s23C1054AF@s.chibakoudai.jp',
-    description='指定したディレクトリの空き容量を提示します',
+    description='指定したファイルシステムの空き容量を提示します',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={

@@ -3,7 +3,7 @@
 <package format="3">
   <name>dir_space</name>
   <version>0.0.0</version>
-  <description>指定したディレクトリの空き容量を提示します</description>
+  <description>指定したファイルシステムの空き容量を提示します</description>
   <maintainer email="s23C1054AF@s.chibakoudai.jp">Kobayashi Yusei</maintainer>
   <license>BSD-3-Clause</license>
 

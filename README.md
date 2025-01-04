@@ -3,13 +3,16 @@
 [![GitHub License](https://img.shields.io/github/license/KobayashiYusei/numberGuesser)](LICENSE)
 ![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy-green)
 <img src="https://img.shields.io/badge/ -Python-F9DC3E.svg?logo=python">
+ ROS2で任意のファイルシステムの空き容量をパブリッシュするパッケージです。
 
 ## 概要
-- ROS2で任意のファイルシステムの空き容量をパブリッシュするパッケージです。
+- `pub_node`に任意のファイルシステムのパスを渡すとその場所の空き容量を`dir_space`トピックに流す機能を持ちます。
 
 ## 対応環境
+- **ROS 2**
+    - ROS 2 Jazzy
 - **OS**
-    - Ubuntu 24.04.1 LTS
+    - Ubuntu 22.04.1 LTS
 - **Python**
     - 3.7 ~ 3.10
 
@@ -41,9 +44,16 @@ $ ros2 topic echo /dir_space
 data: 3.792560577392578
 ```
 ## クレジット
-### 使用ライブラリ
-- **Python標準ライブラリ**
-    - [sys](https://docs.python.org/ja/3/library/sys.html) 
+### 使用したライブラリ・パッケージ
+- **Pythonライブラリ**
+    - [sys](https://docs.python.org/ja/3/library/sys.html)
+    -[rclpy] 
+    -[os]
+    -[shutil]
+    -[sys]
+    -[setuptools]
+- **ROS2 パッケージ**
+    -[std_msgs]
 ### 参考
 - [Pythonのeval関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/40662) - *テックアカデミーマガジン*
 - [【Python入門】stripメソッドで文字を削除しよう](https://www.sejuku.net/blog/50412) - *侍テック編集部*
