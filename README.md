@@ -52,7 +52,7 @@ data: 3.792560577392578
     - [shutil](https://docs.python.org/3/library/shutil.html)
     - [setuptools](https://setuptools.pypa.io/en/latest/)
 - **ROS2 パッケージ**
-    -[std_msgs](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Header.html)
+    - [std_msgs](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Header.html)
 ### 参考
 - [Pythonのeval関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/40662) - *テックアカデミーマガジン*
 - [【Python入門】stripメソッドで文字を削除しよう](https://www.sejuku.net/blog/50412) - *侍テック編集部*
