@@ -5,10 +5,10 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
 
-class diskSpace(Node):
+class dirSpace(Node):
     def __init__(self, path):
-        super().__init__('disk_space')
-        self.pub = self.create_publisher(Float64, 'disk_space', 10)
+        super().__init__('dir_space')
+        self.pub = self.create_publisher(Float64, 'dir_space', 10)
         self.timer = self.create_timer(1.0, self.cb)
         self.path = path
         if not os.path.exists(self.path):
@@ -33,7 +33,7 @@ def main(args=None):
         path = sys.argv[1]
     else:
         path = '/'
-    node = diskSpace(path)
+    node = dirSpace(path)
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
