@@ -36,13 +36,16 @@ def main(args=None):
     else:
         path = '/'
     node = diskSpace(path)
-    #try:
-    rclpy.spin(node)
-    #except KeyboardInterrupt:
-        #pass
-    #finally:
-     #   node.destroy_node()
-     #   rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except rclpy.executors.ExternalShutdownException:
+        # シャットダウンが要求された場合に適切に処理
+        print("Node has been externally shut down.")
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
