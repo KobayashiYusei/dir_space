@@ -8,6 +8,6 @@
        - uses: actions/checkout@v2    #コンテナのカレントディレクトリにリポジトリを配置
        - name: build and test
          run: |
-           rsync -av ./ /root/ros2_hm/src/dir_space/    # リポジトリの下をros2_ws下にコピー
-           cd /root/ros2_hm  #↓追加のパッケージが必要なら実行前にrosdep
-           bash -xv ./src/dir_space/test/test.bash /root #実行
+           rsync -av ./ /root/ros2_ws/src/mypkg/    # リポジトリの下をros2_ws下にコピー
+           cd /root/ros2_ws  #↓追加のパッケージが必要なら実行前にrosdep
+           bash -xv ./src/mypkg/test/test.bash /root #実行
