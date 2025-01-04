@@ -43,9 +43,9 @@ def main(args=None):
         print("Node has been externally shut down.")
     except KeyboardInterrupt:
         pass
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
+    #finally:
+     #   node.destroy_node()
+      #  rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
