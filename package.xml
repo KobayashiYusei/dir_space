@@ -3,9 +3,15 @@
 <package format="3">
   <name>dir_space</name>
   <version>0.0.0</version>
+<<<<<<< HEAD
   <description>TODO: Package description</description>
   <maintainer email="s23C1054AF@s.chibakoudai.jp">yusei</maintainer>
   <license>TODO: License declaration</license>
+=======
+  <description>指定したディレクトリの空き容量を提示します</description>
+  <maintainer email="s23C1054AF@s.chibakoudai.jp">Kobayashi Yusei</maintainer>
+  <license>BSD-3-Clause</license>
+>>>>>>> dev
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
