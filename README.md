@@ -17,12 +17,18 @@
     - 3.7 ~ 3.10
 
 ## セットアップ
+### ステップ1. リポジトリをクローン
 ```bash
 $ git clone https://github.com/KobayashiYusei/dir_space.git
-$ cd dir_space
-$ colcon build --packages-select dir_space
+```
+
+### ステップ2. colconでパッケージをビルドして環境を設定する
+```bash
+#この操作はワークスペースのディレクトリにて行うことに注意してください
+$ colcon build --packages-select dir_space 
 $ source install/setup.bash
 ```
+- `~/.bashrc`に`source {ワークスペースのパス}/install/setup.bash`を追記することでターミナル起動毎の`source install/setup.bash`の操作を省略することが出来ます。
 
 ## 使い方
 ```bash
