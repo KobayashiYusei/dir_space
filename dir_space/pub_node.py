@@ -21,11 +21,9 @@ class diskSpace(Node):
         try:
             total, used, free = shutil.disk_usage(self.path)
             free_gb = free / (2**30)
-            usage = used/total * 100
             msg = Float64()
             msg.data = float(free_gb)
             self.pub.publish(msg)
-            self.get_logger().info(f"Free disk space: {free_gb:.2f} GB Usage:{usage:.2f}%")
         except Exception as e:
             self.get_logger().error(f"Failed to calculate disk space: {e}")
 
@@ -38,14 +36,11 @@ def main(args=None):
     node = diskSpace(path)
     try:
         rclpy.spin(node)
-    except rclpy.executors.ExternalShutdownException:
-        # シャットダウンが要求された場合に適切に処理
-        print("Node has been externally shut down.")
     except KeyboardInterrupt:
         pass
-    #finally:
-     #   node.destroy_node()
-      #  rclpy.shutdown()
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
