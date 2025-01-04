@@ -36,10 +36,10 @@ def main(args=None):
     else:
         path = '/'
     node = diskSpace(path)
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
+    #try:
+    rclpy.spin(node)
+    #except KeyboardInterrupt:
+        #pass
     #finally:
      #   node.destroy_node()
      #   rclpy.shutdown()
