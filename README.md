@@ -1,7 +1,7 @@
 # dir_space
 [![test](https://github.com/KobayashiYusei/dir_space/actions/workflows/test.yml/badge.svg)](https://github.com/KobayashiYusei/dir_space/actions/workflows/test.yml)
 [![GitHub License](https://img.shields.io/github/license/KobayashiYusei/numberGuesser)](LICENSE)
-![Build Status](https://github.com/KobayashiYusei/dir_space/workflows/ROS2%20CI/badge.svg)
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-green)
 <img src="https://img.shields.io/badge/ -Python-F9DC3E.svg?logo=python">
 
 ## 概要
