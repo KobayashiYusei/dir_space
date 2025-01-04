@@ -15,7 +15,7 @@ class diskSpace(Node):
             self.get_logger().error(f"path does not exist: {self.path}")
             self.path = '/' 
             sys.exit(1)
-        self.get_logger().info(f"Publish disk space of{self.path}")
+        self.get_logger().info(f"Publish disk space of {self.path}")
 
     def cb(self):
         try:
@@ -25,7 +25,7 @@ class diskSpace(Node):
             msg.data = float(free_gb)
             self.pub.publish(msg)
         except Exception as e:
-            self.get_logger().error(f"Failed to calculate disk space: {e}")
+            self.get_logger().error(f"Failed to publish disk space: {e}")
 
 def main(args=None):
     rclpy.init(args=args)
