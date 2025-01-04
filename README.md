@@ -3,7 +3,7 @@
 [![GitHub License](https://img.shields.io/github/license/KobayashiYusei/numberGuesser)](LICENSE)
 ![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy-green)
 <img src="https://img.shields.io/badge/ -Python-F9DC3E.svg?logo=python">
- ROS2で任意のファイルシステムの空き容量をパブリッシュするパッケージです。
+-ROS2で任意のファイルシステムの空き容量をパブリッシュするパッケージです。
 
 ## 概要
 - `pub_node`に任意のファイルシステムのパスを渡すとその場所の空き容量を`dir_space`トピックに流す機能を持ちます。
