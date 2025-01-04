@@ -16,9 +16,7 @@
 - **Python**
     - 3.7 ~ 3.10
 
-## インストール
-コマンドラインで以下を実行します。
-このリポジトリをクローンします
+## セットアップ
 ```bash
 $ git clone https://github.com/KobayashiYusei/dir_space.git
 $ cd dir_space
