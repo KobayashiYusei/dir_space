@@ -18,10 +18,12 @@
 
 ## インストール
 コマンドラインで以下を実行します。
+このリポジトリをクローンします
 ```bash
-$ git clone https://github.com/KobayashiYusei/gaussSeidel.git
-$ cd gaussSeidel
-$ chmod 755 gusdl
+$ git clone https://github.com/KobayashiYusei/dir_space.git
+$ cd dir_space
+$ colcon build --packages-select dir_space
+$ source install/setup.bash
 ```
 
 ## 使い方
