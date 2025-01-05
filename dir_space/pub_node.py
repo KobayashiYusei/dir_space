@@ -40,7 +40,8 @@ def main():
     except ExternalShutdownException:
         node.get_logger().info('External shutdown signal received.')
     finally:
-        rclpy.shutdown()
+        #rclpy.shutdown()
+        sys.exit()
 
 if __name__ == '__main__':
     main()
