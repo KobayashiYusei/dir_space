@@ -16,8 +16,6 @@
 
 ## 使い方
 ```bash
-$ colcon build --packages-select dir_space 
-$ source install/setup.bash
 $ ros2 run dir_space pub_node {任意のパス}
 ```
 - 空き容量を調べたいファイルシステムがマウントされているディレクトリのパスをコマンドの末尾に入力して実行します。
@@ -38,8 +36,6 @@ data: 3.792560577392578
 ## クレジット
 ### 使用したライブラリ・パッケージ
 - **Pythonライブラリ**
-    - [sys](https://docs.python.org/ja/3/library/sys.html)
-    - [os](https://docs.python.org/3/library/os.html)
     - [shutil](https://docs.python.org/3/library/shutil.html)
     - [setuptools](https://setuptools.pypa.io/en/latest/)
 - **ROS2パッケージ**
