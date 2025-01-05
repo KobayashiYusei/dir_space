@@ -34,13 +34,17 @@ $ ros2 topic echo /dir_space
 data: 3.792560577392578
 ```
 ## クレジット
-### 使用したライブラリ・パッケージ
+### 使用させていただいたライブラリ・パッケージ
 - **Pythonライブラリ**
     - [shutil](https://docs.python.org/3/library/shutil.html)
     - [setuptools](https://setuptools.pypa.io/en/latest/)
 - **ROS2パッケージ**
     - [std_msgs](https://docs.ros.org/en/noetic/api/std_msgs/html/index-msg.html)
     - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
+
+## 使用させていただいたコンテナ
+このプロジェクトでは、以下のDockerコンテナを使用しています：
+- [ryuichiueda/ubuntu22.04-ros2:latest](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
 ### 参考
 - [std_msgs Msg/Srv Documentation](https://docs.ros.org/en/noetic/api/std_msgs/html/index-msg.html) - *ROS Wiki*
 - [Pythonでディレクトリごとのディスク使用容量を一覧化する](https://qiita.com/estaro/items/c298d3c1b2a39e0f4336) - *estaro*
