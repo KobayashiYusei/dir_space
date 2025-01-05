@@ -40,11 +40,6 @@ def main():
         node.get_logger().info('External shutdown signal received.')
     except Exception as e:
         node.get_logger().error(f'Unexpected exception: {e}')
-    finally:
-        # クリーンアップ処理を実行
-        if node:
-            node.destroy_node()
-        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
