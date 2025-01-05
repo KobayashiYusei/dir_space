@@ -37,10 +37,9 @@ def main():
     node = dirSpace(path)
     try:
         rclpy.spin(node)
-    except ExternalShutdownException:
-        node.get_logger().info('External shutdown signal received.')
+    except Exception as e:
+        node.get_logger().error(f'fatal: {e}')
     finally:
-        #rclpy.shutdown()
         sys.exit()
 
 if __name__ == '__main__':
