@@ -1,5 +1,5 @@
 #!/bin/bash
-# SPDX-FileCopyrightText: 2024 Kobayashi Yusei
+# SPDX-FileCopyrightText: 2025 Kobayashi Yusei
 # SPDX-License-Identifier: BSD-3-Clause
 # See LICENSE file for more details.
 dir=~
