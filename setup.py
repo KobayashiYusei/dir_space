@@ -13,15 +13,6 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-<<<<<<< HEAD
-    maintainer='yusei',
-    maintainer_email='s23C1054AF@s.chibakoudai.jp',
-    description='TODO: Package description',
-    license='TODO: License declaration',
-    tests_require=['pytest'],
-    entry_points={
-        'console_scripts': [
-=======
     maintainer='Kobayashi Yusei',
     maintainer_email='s23C1054AF@s.chibakoudai.jp',
     description='指定したファイルシステムの空き容量を提示します',
@@ -30,7 +21,6 @@ setup(
     entry_points={
         'console_scripts': [
 		'pub_node = dir_space.pub_node:main'
->>>>>>> dev
         ],
     },
 )
