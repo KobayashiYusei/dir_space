@@ -47,7 +47,6 @@ data: 3.792560577392578
     - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
 ### 参考
 - [msg](http://wiki.ros.org/msg) - *ROS Wiki*
-- [【Python入門】stripメソッドで文字を削除しよう](https://www.sejuku.net/blog/50412) - *侍テック編集部*
 - [Pythonでディレクトリごとのディスク使用容量を一覧化する](https://qiita.com/estaro/items/c298d3c1b2a39e0f4336) - *estaro*
 - [sys --- システム固有のパラメーターと関数](https://docs.python.org/ja/3/library/sys.html) - *Python 3.13.0 ドキュメント
 - [bashでのPID取得方法まとめ($$、$PPID、$!、$BASHPID)](https://qiita.com/laikuaut/items/1daa06900ad045d119b4) - *Shota*
