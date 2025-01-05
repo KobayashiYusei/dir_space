@@ -4,6 +4,7 @@ import sys
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
+from rclpy.executors import ExternalShutdownException
 
 class dirSpace(Node):
     def __init__(self, path):
@@ -34,8 +35,12 @@ def main():
     else:
         path = '/'
     node = dirSpace(path)
-    rclpy.spin(node)
-    rclpy.shutdown()
+    try:
+        rclpy.spin(node)
+    except ExternalShutdownException:
+        node.get_logger().info('External shutdown signal received.')
+    finally:
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
