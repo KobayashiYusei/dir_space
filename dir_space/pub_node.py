@@ -27,8 +27,8 @@ class dirSpace(Node):
         except Exception as e:
             self.get_logger().error(f"Failed to publish disk space: {e}")
 
-def main(args=None):
-    rclpy.init(args=args)
+def main():
+    rclpy.init()
     if len(sys.argv) > 1:
         path = sys.argv[1]
     else:
@@ -37,5 +37,3 @@ def main(args=None):
     rclpy.spin(node)
     rclpy.shutdown()
 
-if __name__ == '__main__':
-    main()
