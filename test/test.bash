@@ -8,10 +8,10 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-ros2 run dir_space pub_node / > test_valid.log 2>&1 & VALID_PID=$!
+ros2 run dir_space pub_node / > test_publish.log 2>&1 & PUB_PID=$!
 sleep 3
-kill $VALID_PID
-if grep -q "Publish disk space of /" test_valid.log; then
+kill $PUB_PID
+if grep -q "Publish disk space of /" test_publish.log; then
   exit 0
 else
   echo "failed publish"
@@ -28,10 +28,10 @@ fi
 
 timeout 10 ros2 run dir_space pub_node & NODE_PID=$!
 sleep 6
-timeout 10 ros2 topic echo /dir_space > test_topic.log & ECHO_PID=$!
+timeout 10 ros2 topic echo /dir_space > test_topic.log & LISTEN_PID=$!
 sleep 6
 kill -SIGKILL $NODE_PID || true
-kill -SIGKILL $ECHO_PID || true
+kill -SIGKILL $LISTEN_PID || true
 
 if grep -q "data:" test_topic.log; then
   exit 0

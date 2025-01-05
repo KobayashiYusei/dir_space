@@ -66,6 +66,7 @@ data: 3.792560577392578
 - [sys --- システム固有のパラメーターと関数](https://docs.python.org/ja/3/library/sys.html) - *Python 3.13.0 ドキュメント
 - [【Python】最初、混同してしまう「assert, except, raise」文について](https://qiita.com/baby-0105/items/0e30348589fa0a9d2424) - *b*
 - [Throw exception ExternalShutdownException while receiving signal SIGTERM #841](https://github.com/ros2/rclpy/issues/841) - *Barry-Xu-2018 *
+- [標準入出力のリダイレクト](https://qiita.com/r18j21/items/0e7d0e48c02d14ed9893) - *r18j21*
 - [Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7) - *てぃー びー*
 - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f) - *Canard*
 
