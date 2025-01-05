@@ -39,11 +39,12 @@ data: 3.792560577392578
     - [shutil](https://docs.python.org/3/library/shutil.html)
     - [setuptools](https://setuptools.pypa.io/en/latest/)
 - **ROS2パッケージ**
-    - [std_msgs](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Header.html)
+    - [std_msgs](https://docs.ros.org/en/noetic/api/std_msgs/html/index-msg.html)
     - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
 ### 参考
-- [msg](http://wiki.ros.org/msg) - *ROS Wiki*
+- [std_msgs Msg/Srv Documentation](https://docs.ros.org/en/noetic/api/std_msgs/html/index-msg.html) - *ROS Wiki*
 - [Pythonでディレクトリごとのディスク使用容量を一覧化する](https://qiita.com/estaro/items/c298d3c1b2a39e0f4336) - *estaro*
+- [[Python]コマンドライン引数を受け取る方法](https://qiita.com/to-fmak/items/4b136479099826959ea6) - *Wenzhang*
 - [sys --- システム固有のパラメーターと関数](https://docs.python.org/ja/3/library/sys.html) - *Python 3.13.0 ドキュメント
 - [bashでのPID取得方法まとめ($$、$PPID、$!、$BASHPID)](https://qiita.com/laikuaut/items/1daa06900ad045d119b4) - *Shota*
 - [Throw exception ExternalShutdownException while receiving signal SIGTERM #841](https://github.com/ros2/rclpy/issues/841) - *Barry-Xu-2018 *
