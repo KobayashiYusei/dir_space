@@ -1,0 +1,2 @@
+[console_scripts]
+pub_node = dir_space.pub_node:main

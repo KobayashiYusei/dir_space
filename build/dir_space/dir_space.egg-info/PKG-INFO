@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dir-space
+Version: 0.0.0
+Summary: 指定したファイルシステムの空き容量を提示します
+Maintainer: Kobayashi Yusei
+Maintainer-email: s23C1054AF@s.chibakoudai.jp
+License: BSD-3-Clause
+License-File: LICENSE

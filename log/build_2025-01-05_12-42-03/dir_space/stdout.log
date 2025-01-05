@@ -1,0 +1,36 @@
+running egg_info
+creating build/dir_space/dir_space.egg-info
+writing build/dir_space/dir_space.egg-info/PKG-INFO
+writing dependency_links to build/dir_space/dir_space.egg-info/dependency_links.txt
+writing entry points to build/dir_space/dir_space.egg-info/entry_points.txt
+writing requirements to build/dir_space/dir_space.egg-info/requires.txt
+writing top-level names to build/dir_space/dir_space.egg-info/top_level.txt
+writing manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+reading manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build
+creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib
+creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+copying dir_space/pub_node.py -> /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+copying dir_space/__init__.py -> /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+running install
+running install_lib
+creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+copying /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space/pub_node.py -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+copying /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space/__init__.py -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+byte-compiling /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space/pub_node.py to pub_node.cpython-312.pyc
+byte-compiling /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index
+creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index
+creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index/packages
+copying resource/dir_space -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/dir_space
+running install_egg_info
+Copying build/dir_space/dir_space.egg-info to /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pub_node script to /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/dir_space
+writing list of installed files to '/home/yusei/ros2_hm/src/dir_space/build/dir_space/install.log'

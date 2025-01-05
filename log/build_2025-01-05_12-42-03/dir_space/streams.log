@@ -1,0 +1,38 @@
+[1.858s] Invoking command in '/home/yusei/ros2_hm/src/dir_space': PYTHONPATH=/home/yusei/ros2_hm/src/dir_space/build/dir_space/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/dir_space build --build-base /home/yusei/ros2_hm/src/dir_space/build/dir_space/build install --record /home/yusei/ros2_hm/src/dir_space/build/dir_space/install.log --single-version-externally-managed install_data
+[2.165s] running egg_info
+[2.165s] creating build/dir_space/dir_space.egg-info
+[2.186s] writing build/dir_space/dir_space.egg-info/PKG-INFO
+[2.187s] writing dependency_links to build/dir_space/dir_space.egg-info/dependency_links.txt
+[2.188s] writing entry points to build/dir_space/dir_space.egg-info/entry_points.txt
+[2.188s] writing requirements to build/dir_space/dir_space.egg-info/requires.txt
+[2.189s] writing top-level names to build/dir_space/dir_space.egg-info/top_level.txt
+[2.189s] writing manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+[2.238s] reading manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+[2.239s] adding license file 'LICENSE'
+[2.240s] writing manifest file 'build/dir_space/dir_space.egg-info/SOURCES.txt'
+[2.240s] running build
+[2.241s] running build_py
+[2.242s] creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build
+[2.242s] creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib
+[2.244s] creating /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+[2.245s] copying dir_space/pub_node.py -> /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+[2.246s] copying dir_space/__init__.py -> /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space
+[2.247s] running install
+[2.256s] running install_lib
+[2.278s] creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+[2.279s] copying /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space/pub_node.py -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+[2.280s] copying /home/yusei/ros2_hm/src/dir_space/build/dir_space/build/lib/dir_space/__init__.py -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space
+[2.281s] byte-compiling /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space/pub_node.py to pub_node.cpython-312.pyc
+[2.283s] byte-compiling /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space/__init__.py to __init__.cpython-312.pyc
+[2.283s] running install_data
+[2.284s] creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index
+[2.284s] creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index
+[2.284s] creating /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index/packages
+[2.285s] copying resource/dir_space -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/ament_index/resource_index/packages
+[2.286s] copying package.xml -> /home/yusei/ros2_hm/src/dir_space/install/dir_space/share/dir_space
+[2.286s] running install_egg_info
+[2.306s] Copying build/dir_space/dir_space.egg-info to /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages/dir_space-0.0.0-py3.12.egg-info
+[2.309s] running install_scripts
+[2.444s] Installing pub_node script to /home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/dir_space
+[2.453s] writing list of installed files to '/home/yusei/ros2_hm/src/dir_space/build/dir_space/install.log'
+[2.491s] Invoked command in '/home/yusei/ros2_hm/src/dir_space' returned '0': PYTHONPATH=/home/yusei/ros2_hm/src/dir_space/build/dir_space/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusei/ros2_hm/src/dir_space/install/dir_space/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/dir_space build --build-base /home/yusei/ros2_hm/src/dir_space/build/dir_space/build install --record /home/yusei/ros2_hm/src/dir_space/build/dir_space/install.log --single-version-externally-managed install_data

@@ -35,8 +35,5 @@ def main(args=None):
         path = '/'
     node = dirSpace(path)
     rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
-
 if __name__ == '__main__':
     main()
