@@ -13,8 +13,6 @@
     - ROS 2 Jazzy
 - **OS**
     - Ubuntu 22.04.1 LTS
-- **Python**
-    - 3.7 ~ 3.10
 
 ## 使い方
 ```bash
