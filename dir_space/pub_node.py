@@ -8,7 +8,6 @@ import sys
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64
-from rclpy.executors import ExternalShutdownException
 
 class dirSpace(Node):
     def __init__(self, path):
