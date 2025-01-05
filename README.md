@@ -44,7 +44,7 @@ data: 3.792560577392578
 
 ### 使用させていただいたコンテナ
 このプロジェクトでは、以下のDockerコンテナを使用しています：
-- [ryuichiueda/ubuntu22.04-ros2:latest](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
+- [ryuichiueda/ubuntu22.04-ros2:latest](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)  - *ryuichiueda*
 ### 参考
 - [std_msgs Msg/Srv Documentation](https://docs.ros.org/en/noetic/api/std_msgs/html/index-msg.html) - *ROS Wiki*
 - [Pythonでディレクトリごとのディスク使用容量を一覧化する](https://qiita.com/estaro/items/c298d3c1b2a39e0f4336) - *estaro*
