@@ -9,8 +9,8 @@
 - `pub_node`に任意のファイルシステムのパスを渡すとその場所の空き容量を`dir_space`トピックに流す機能を持ちます。
 
 ## 対応環境
-- **ROS 2**
-    - ROS 2 Jazzy
+- **ROS2**
+    - ROS2 Humble
 - **OS**
     - Ubuntu 22.04.1 LTS
 
