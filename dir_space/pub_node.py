@@ -34,13 +34,6 @@ def main(args=None):
     else:
         path = '/'
     node = dirSpace(path)
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
-
+    rclpy.spin(node)
 if __name__ == '__main__':
     main()

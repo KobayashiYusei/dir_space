@@ -17,7 +17,7 @@
     - 3.7 ~ 3.10
 
 ## セットアップ
-### ステップ1. リポジトリをクローン
+### ステップ1. ワークスペース直下にリポジトリをクローン
 ```bash
 $ git clone https://github.com/KobayashiYusei/dir_space.git
 ```
@@ -35,8 +35,8 @@ $ source install/setup.bash
 $ ros2 run dir_space pub_node {任意のパス}
 ```
 - 空き容量を調べたいファイルシステムがマウントされているディレクトリのパスをコマンドの末尾に入力して実行します。
-- 入力されたパスの空き容量が浮動小数点型でトピックに流れます。単位はGBです。
-- パスが存在しない場合パブリッシャは終了します。
+- 入力されたパスの空き容量の値が浮動小数点型でトピックに流れます。単位はGBです。
+- 存在しないパスを入力して実行した場合パブリッシャは終了します。
 - パスを入力しないで実行するとルートディレクトリにマウントされているファイルシステムの空き容量がトピックに流れます。
 
 ### 実行例
@@ -53,12 +53,12 @@ data: 3.792560577392578
 ### 使用したライブラリ・パッケージ
 - **Pythonライブラリ**
     - [sys](https://docs.python.org/ja/3/library/sys.html)
-    - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
     - [os](https://docs.python.org/3/library/os.html)
     - [shutil](https://docs.python.org/3/library/shutil.html)
     - [setuptools](https://setuptools.pypa.io/en/latest/)
-- **ROS2 パッケージ**
+- **ROS2パッケージ**
     - [std_msgs](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Header.html)
+    - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
 ### 参考
 - [Pythonのeval関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/40662) - *テックアカデミーマガジン*
 - [【Python入門】stripメソッドで文字を削除しよう](https://www.sejuku.net/blog/50412) - *侍テック編集部*
