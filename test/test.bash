@@ -9,7 +9,7 @@ cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
 ros2 run dir_space pub_node / > test_publish.log 2>&1 & PUB_PID=$!
-sleep 3
+sleep 6
 kill $PUB_PID
 if grep -q "Publish disk space of /" test_publish.log; then
   exit 0

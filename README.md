@@ -16,22 +16,10 @@
 - **Python**
     - 3.7 ~ 3.10
 
-## セットアップ
-### ステップ1. ワークスペース直下にリポジトリをクローン
-```bash
-$ git clone https://github.com/KobayashiYusei/dir_space.git
-```
-
-### ステップ2. colconでパッケージをビルドして環境を設定する
-```bash
-#この操作はワークスペースのディレクトリにて行うことに注意してください
-$ colcon build --packages-select dir_space 
-$ source install/setup.bash
-```
-- `~/.bashrc`に`source {ワークスペースのパス}/install/setup.bash`を追記することでターミナル起動毎の`source install/setup.bash`の操作を省略することが出来ます。
-
 ## 使い方
 ```bash
+$ colcon build --packages-select dir_space 
+$ source install/setup.bash
 $ ros2 run dir_space pub_node {任意のパス}
 ```
 - 空き容量を調べたいファイルシステムがマウントされているディレクトリのパスをコマンドの末尾に入力して実行します。
@@ -60,11 +48,11 @@ data: 3.792560577392578
     - [std_msgs](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Header.html)
     - [rclpy](https://docs.ros.org/en/iron/p/rclpy/)
 ### 参考
-- [Pythonのeval関数について現役エンジニアが解説【初心者向け】](https://magazine.techacademy.jp/magazine/40662) - *テックアカデミーマガジン*
+- [msg](http://wiki.ros.org/msg) - *ROS Wiki*
 - [【Python入門】stripメソッドで文字を削除しよう](https://www.sejuku.net/blog/50412) - *侍テック編集部*
-- [pythonでヤコビ法[Jacobi]とガウス・ザイデル法[Gauss-Seidel ]（反復法）](https://qiita.com/murakamixi/items/61dbea027db3f33d5b41) - *Kazutaka Murakami*
+- [Pythonでディレクトリごとのディスク使用容量を一覧化する](https://qiita.com/estaro/items/c298d3c1b2a39e0f4336) - *estaro*
 - [sys --- システム固有のパラメーターと関数](https://docs.python.org/ja/3/library/sys.html) - *Python 3.13.0 ドキュメント
-- [【Python】最初、混同してしまう「assert, except, raise」文について](https://qiita.com/baby-0105/items/0e30348589fa0a9d2424) - *b*
+- [bashでのPID取得方法まとめ($$、$PPID、$!、$BASHPID)](https://qiita.com/laikuaut/items/1daa06900ad045d119b4) - *Shota*
 - [Throw exception ExternalShutdownException while receiving signal SIGTERM #841](https://github.com/ros2/rclpy/issues/841) - *Barry-Xu-2018 *
 - [標準入出力のリダイレクト](https://qiita.com/r18j21/items/0e7d0e48c02d14ed9893) - *r18j21*
 - [Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7) - *てぃー びー*
@@ -82,4 +70,4 @@ data: 3.792560577392578
 　
 ## ライセンス
 - このソフトウェアパッケージは，[3条項BSDライセンス](LICENSE)の下，再頒布および使用が許可されます。
-- © 2024 Yusei Kobayashi
+- © 2025 Yusei Kobayashi
